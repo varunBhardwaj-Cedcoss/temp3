@@ -13,30 +13,30 @@
     background-color: rgb(207, 204, 204);
 }
 .section2{
+    display:flex;
     margin-top: 30px;
-    margin-left: 200px;
+    margin-left: 80px;
 }
 .align{
-    display: inline-block;
+    display: block;
     padding: 20px 20px;
-    width:200px;
+    width:250px;
     height:100px;
     margin-right: 80px;
     background-color:rgb(207, 204, 204) ;
 }
 .align2{
-    display: inline-block;
     text-align: center;
     padding: 20px 20px;
     width:200px;
-    height:200px;
+    height:300px;
     margin-right: 80px;
 }
 .last{
     background-color: rgb(207, 204, 204);
     width: 80%;
     padding: 1% 2%;
-    margin-left: 10%;
+    margin-left: 6%;
     justify-content: center;
 }
 button.c{
@@ -70,9 +70,27 @@ footer{
     margin-top: 1%;
 }
 .left{
-    margin-left: 12%;
+    margin-left: 7%;
    
 }
 .right{
     margin-left: 55%;
 }
+@media screen and (max-width: 600px) {   .section2 {     display: block; 
+       width: 100%;  
+          margin: 4% 0 2% 0;     
+          padding: 0;   }  
+           .section2 .m {  
+                  width: 80%;   
+                    padding: 0 10%;   
+                }
+            }
+            @media screen and (max-width: 900px) {   .section2 {     display: block; 
+                width: 100%;  
+                   margin: 4% 0 2% 0;     
+                   padding: 0;   }  
+                    .section2 .m {  
+                           width: 80%;   
+                             padding: 0 10%;   
+                         }
+                     }
